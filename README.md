@@ -1,4 +1,4 @@
-# Inclined-fish-characteristic-measurement-U-net-Roctation-correction
+# Inclined-fish-characteristic-measurement-U-Net-Roctation-correction
 #### If you want to get the public dataset, please go to [[link](https://github.com/YuChuang1205/Fish-pure-background-dataset)]  
 ### If you want to reproduce the paper, you need to understand the following information.
 **1.file information**  
