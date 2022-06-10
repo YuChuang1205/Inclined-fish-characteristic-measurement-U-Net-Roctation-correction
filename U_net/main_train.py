@@ -16,22 +16,7 @@ import cv2
 
 
 
-class Logger(object):
-    def __init__(self, fileN="Default.log"):
-        self.terminal = sys.stdout
-        self.log = open(fileN, "a",encoding='utf-8')   
- 
-    def write(self, message):
-        self.terminal.write(message)
-        self.log.write(message)
- 
-    def flush(self):
-        pass
 root_path = os.path.abspath('.')
-time1 = time.strftime('%Y%m%d%H%M',time.localtime(time.time()))
-new_name = "logs/log"+time1+".txt"
-
-sys.stdout = Logger(os.path.join(root_path,new_name))
 
 
 
